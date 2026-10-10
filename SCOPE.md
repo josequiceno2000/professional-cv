@@ -24,19 +24,19 @@
   - [x] Collect inspiration from Dribble
   - [x] Select top 2 inspirations
   - [x] Organize everything in mood board
-- [ ] Make design elements
+- [x] Make design elements
   - [x] Select singular font for document
-  - [ ] Create style for Name
-  - [ ] Create style for Section Title
-  - [ ] Create style for Section Subtitle
-  - [ ] Create style for Section content
-  - [ ] Create unique styles as necessary
-- [ ] Create design on Figma
-  - [ ] Create frame in Figma
-  - [ ] Add proper bleed and margin
-  - [ ] Organize all elements
-  - [ ] Place design in a website page frame
-  - [ ] Export 
+  - [x] Create style for Name
+  - [x] Create style for Section Title
+  - [x] Create style for Section Subtitle
+  - [x] Create style for Section content
+  - [x] Create unique styles as necessary
+- [x] Create design on Figma
+  - [x] Create frame in Figma
+  - [x] Add proper bleed and margin
+  - [x] Organize all elements
+  - [x] Place design in a website page frame
+  - [x] Export 
 - [ ] Code page
   - [x] Create files and project folders
     - [x] /images
@@ -45,7 +45,7 @@
     - [x] styles.css
     - [x] reset.css
     - [x] script.js
-    - [x] index.html 
+    - [x] index.htmlo
   - [x] Code boilerplate
   - [ ] Write reset.css
   - [ ] Connect reset and styles to index
