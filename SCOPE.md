@@ -25,7 +25,7 @@
   - [x] Select top 2 inspirations
   - [x] Organize everything in mood board
 - [ ] Make design elements
-  - [ ] Select singular font for document
+  - [x] Select singular font for document
   - [ ] Create style for Name
   - [ ] Create style for Section Title
   - [ ] Create style for Section Subtitle
@@ -46,7 +46,7 @@
     - [x] reset.css
     - [x] script.js
     - [x] index.html 
-  - [ ] Code boilerplate
+  - [x] Code boilerplate
   - [ ] Write reset.css
   - [ ] Connect reset and styles to index
   - [ ] Connect script to index
