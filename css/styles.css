@@ -1,1 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+  font-family: "Libre Caslon", serif;
+  background: url('../images/site-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}

@@ -52,7 +52,7 @@
   - [x] Connect script to index
   - [x] Code head
   - [ ] Code body
-    - [ ] Page background
+    - [x] Page background
     - [ ] header
     - [ ] name section
     - [ ] contact & title section
