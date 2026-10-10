@@ -6,7 +6,7 @@
 ## Sub Goals
 - [ ] **Semantic HTML**: use appropriate HTML tags
 - [x] **SEO Meta Tags**: include essential meta tags for SEO
-- [ ] **Open Graph (OG Tags)**: add OG tags for better social media sharing.
+- [x] **Open Graph (OG Tags)**: add OG tags for better social media sharing.
 - [x] **Favicon**: add favicon to CV page
 - [ ] **Layout**: add all appropriate sections
   - [ ] *Name*
@@ -50,7 +50,7 @@
   - [x] Write reset.css
   - [x] Connect reset and styles to index
   - [x] Connect script to index
-  - [ ] Code head
+  - [x] Code head
   - [ ] Code body
     - [ ] Page background
     - [ ] header
