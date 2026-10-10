@@ -47,8 +47,8 @@
     - [x] script.js
     - [x] index.htmlo
   - [x] Code boilerplate
-  - [ ] Write reset.css
-  - [ ] Connect reset and styles to index
+  - [x] Write reset.css
+  - [x] Connect reset and styles to index
   - [ ] Connect script to index
   - [ ] Code head
   - [ ] Code body
