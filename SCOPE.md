@@ -17,13 +17,13 @@
   - [ ] *Links*
 
 ## Procedure
-- [ ] Create mood board 
-  - [ ] Create project in Figma
-  - [ ] Collect inspiration from Pinterest
-  - [ ] Collect inspiration from Google
-  - [ ] Collect inspiration from Dribble
-  - [ ] Select top 2 inspirations
-  - [ ] Organize everything in mood board
+- [x] Create mood board 
+  - [x] Create project in Figma
+  - [x] Collect inspiration from Pinterest
+  - [x] Collect inspiration from Google
+  - [x] Collect inspiration from Dribble
+  - [x] Select top 2 inspirations
+  - [x] Organize everything in mood board
 - [ ] Make design elements
   - [ ] Select singular font for document
   - [ ] Create style for Name
@@ -38,14 +38,14 @@
   - [ ] Place design in a website page frame
   - [ ] Export 
 - [ ] Code page
-  - [ ] Create files and project folders
-    - [ ] /images
-    - [ ] /css
-    - [ ] /js
-    - [ ] styles.css
-    - [ ] reset.css
-    - [ ] script.js
-    - [ ] index.html 
+  - [x] Create files and project folders
+    - [x] /images
+    - [x] /css
+    - [x] /js
+    - [x] styles.css
+    - [x] reset.css
+    - [x] script.js
+    - [x] index.html 
   - [ ] Code boilerplate
   - [ ] Write reset.css
   - [ ] Connect reset and styles to index
