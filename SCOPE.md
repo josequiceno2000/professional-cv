@@ -5,9 +5,9 @@
 
 ## Sub Goals
 - [ ] **Semantic HTML**: use appropriate HTML tags
-- [ ] **SEO Meta Tags**: include essential meta tags for SEO
+- [x] **SEO Meta Tags**: include essential meta tags for SEO
 - [ ] **Open Graph (OG Tags)**: add OG tags for better social media sharing.
-- [ ] **Favicon**: add favicon to CV page
+- [x] **Favicon**: add favicon to CV page
 - [ ] **Layout**: add all appropriate sections
   - [ ] *Name*
   - [ ] *Contact and Title*
