@@ -8,13 +8,13 @@
 - [x] **SEO Meta Tags**: include essential meta tags for SEO
 - [x] **Open Graph (OG Tags)**: add OG tags for better social media sharing.
 - [x] **Favicon**: add favicon to CV page
-- [ ] **Layout**: add all appropriate sections
-  - [ ] *Name*
-  - [ ] *Contact and Title*
-  - [ ] *Skills*
-  - [ ] *Education*
-  - [ ] *Experience*
-  - [ ] *Links*
+- [x] **Layout**: add all appropriate sections
+  - [x] *Name*
+  - [x] *Contact and Title*
+  - [x] *Skills*
+  - [x] *Education*
+  - [x] *Experience*
+  - [x] *Links*
 
 ## Procedure
 - [x] Create mood board 
@@ -51,13 +51,13 @@
   - [x] Connect reset and styles to index
   - [x] Connect script to index
   - [x] Code head
-  - [ ] Code body
+  - [x] Code body
     - [x] Page background
     - [x] header
     - [x] name section
-    - [ ] contact & title section
-    - [ ] skills section
-    - [ ] education section
-    - [ ] experience section
-    - [ ] links section
+    - [x] contact & title section
+    - [x] skills section
+    - [x] education section
+    - [x] experience section
+    - [ ] ~~links section~~
 - [ ] Document in README 
