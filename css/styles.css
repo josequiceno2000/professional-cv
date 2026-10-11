@@ -38,10 +38,6 @@ html {
   scrollbar-width: none;
 }
 
-
-
-
-
 /* 
 
 CV
@@ -279,6 +275,17 @@ SKILLS
 
 /* 
 
-RESPONSIVENE
+EXPERIENCE
+
+*/
+
+.experience {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 
+
+RESPONSIVE
 
 */
