@@ -15,6 +15,8 @@ BACKGROUND
   --text: #727171;
   --text-light: #959595;
   --primary: #EB531C;
+  --primary-lighter: #fa7e51;
+  --white: #fff4f0;
 }
 
 body {
@@ -390,6 +392,15 @@ PROJECTS
   padding: 16px 32px;
 }
 
+.project {
+  display: flex;
+  flex-direction: column;
+}
+
+.project__link {
+  color: inherit;
+  text-decoration: none;
+}
 /* 
 
 ANIMATIONS
