@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
 
 /* 
 
@@ -6,12 +6,16 @@ BACKGROUND
 
 */
 
+:root {
+  font-size: 16px;
+}
+
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: "Libre Caslon Condensed", serif;
+  font-family: "Libre Caslon Text", serif;
   background: url('../images/site-background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -50,17 +54,18 @@ main {
 }
 
 .cv__left {
-  width: 33%;
+  width: 25%;
 }
 
 .cv__right {
   position: relative;
-  width: 56%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
 }
 
 .cv__right::before {
   position: absolute;
-  left: -32px;
   content: "";
   display: block;
   height: 100%;
@@ -78,7 +83,44 @@ HEADER
 .cv__header {
   display: flex;
   flex-direction: column;
+  gap: 3px;
+  padding: 32px;
+}
 
+.cv__header::after {
+  content: "";
+  background: #CACACA;
+  width: 33%;
+  height: 1px;
+  border-radius: 100%;
+}
+
+.candidate__name {
+  color: #2E2E2E;
+  font-size: 2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.candidate__name--bold {
+  font-weight: 700;
+}
+
+.candidate__title {
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 300;
+
+  margin-bottom: 4px;
+}
+
+.candidate__bio {
+  color: #7c7c7c;
+  font-size: 0.75rem;
+  line-height: 2;
+  width: 400px;
+  text-wrap: pretty;
+  margin-bottom: 16px;
 }
 
 /* 
