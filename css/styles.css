@@ -53,6 +53,8 @@ main {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
   padding: 32px 56px;
   z-index: 1;
+  animation: fade-in 3s;
+  animation-timing-function: ease-in-out;
 }
 
 main,
@@ -289,6 +291,22 @@ EXPERIENCE
 .experience {
   display: flex;
   flex-direction: column;
+}
+
+/* 
+
+ANIMATIONS
+
+*/
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 /* 
