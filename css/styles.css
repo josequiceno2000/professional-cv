@@ -25,7 +25,21 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
+
+body::-webkit-scrollbar,
+body::-webkit-scrollbar-button {
+  display: none;
+}
+
+html {
+  scrollbar-width: none;
+}
+
+
+
 
 
 /* 
@@ -104,7 +118,8 @@ HEADER
 .cv__header::after,
 .contact::after,
 .education::after,
-.skills::after {
+.skills::after
+.experience::after {
   content: "";
   background: var(--dividers);
   width: 33%;
