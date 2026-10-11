@@ -55,6 +55,12 @@ main {
   z-index: 1;
 }
 
+main,
+.cv__background--container,
+.cv__background {
+  border-radius: 4px;
+}
+
 .cv__background--container {
   position: absolute;
   top:0;
@@ -63,6 +69,7 @@ main {
   height: 100%;
   z-index: 2;
 }
+
 
 .cv__background {
   width: 100%;
