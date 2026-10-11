@@ -227,7 +227,7 @@ EDUCATION
 .institution {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 8px;
 }
 
 .institition__title,
@@ -241,6 +241,25 @@ EDUCATION
 .institition__title {
   color: var(--name);
   text-transform: uppercase;
+  -webkit-text-stroke: .25px var(--name)
+}
+
+/* 
+
+SKILLS
+
+*/
+
+.skill__list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-bottom: 16px;
+}
+
+.skill {
+  font-size: 0.75rem;
+  color: var(--text);
 }
 
 /* 
