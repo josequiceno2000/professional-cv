@@ -53,8 +53,8 @@
   - [x] Code head
   - [ ] Code body
     - [x] Page background
-    - [ ] header
-    - [ ] name section
+    - [x] header
+    - [x] name section
     - [ ] contact & title section
     - [ ] skills section
     - [ ] education section

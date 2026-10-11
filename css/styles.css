@@ -37,6 +37,7 @@ main {
   height: 1200px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
   padding: 32px 56px;
+  z-index: 1;
 }
 
 .cv__background--container {
@@ -45,6 +46,7 @@ main {
   left: 0;
   width: 100%;
   height: 100%;
+  z-index: 2;
 }
 
 .cv__background {
@@ -54,7 +56,13 @@ main {
 }
 
 .cv__left {
-  width: 25%;
+  width: 30%;
+  z-index: 3;
+  padding: 32px 24px 32px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
 }
 
 .cv__right {
@@ -62,6 +70,7 @@ main {
   width: 60%;
   display: flex;
   flex-direction: column;
+  z-index: 3;
 }
 
 .cv__right::before {
@@ -121,6 +130,26 @@ HEADER
   width: 400px;
   text-wrap: pretty;
   margin-bottom: 16px;
+}
+
+/* 
+
+HEADSHOT
+
+*/
+
+.candidate__headshot {
+  width: 100%;
+}
+
+.headshot__image--container {
+  width: 90%;
+}
+
+.headshot__image {
+  width: 100%;
+  border-radius: 100%;
+  box-shadow: -16px -16px 40px #EB531C;
 }
 
 /* 
