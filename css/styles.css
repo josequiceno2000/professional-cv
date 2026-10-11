@@ -8,6 +8,11 @@ BACKGROUND
 
 :root {
   font-size: 16px;
+  --name: #2E2E2E;
+  --title: #333;
+  --section-title: #3b3b3b;
+  --dividers: #C6C6C6;
+  --text: #727171;
 }
 
 body {
@@ -80,7 +85,7 @@ main {
   height: 100%;
   width: 1px;
   border-radius: 100%;
-  background: #C6C6C6;
+  background: var(--dividers);
 }
 
 /* 
@@ -96,16 +101,19 @@ HEADER
   padding: 32px;
 }
 
-.cv__header::after {
+.cv__header::after,
+.contact::after,
+.education::after,
+.skills::after {
   content: "";
-  background: #CACACA;
+  background: var(--dividers);
   width: 33%;
   height: 1px;
   border-radius: 100%;
 }
 
 .candidate__name {
-  color: #2E2E2E;
+  color: var(--name);
   font-size: 2rem;
   font-weight: 300;
   text-transform: uppercase;
@@ -116,7 +124,7 @@ HEADER
 }
 
 .candidate__title {
-  color: #333;
+  color: var(--title);
   font-size: 1.5rem;
   font-weight: 300;
 
@@ -124,7 +132,7 @@ HEADER
 }
 
 .candidate__bio {
-  color: #7c7c7c;
+  color: var(--text);
   font-size: 0.75rem;
   line-height: 2;
   width: 400px;
@@ -154,6 +162,56 @@ HEADSHOT
 
 /* 
 
-RESPONSIVENEXX
+CONTACT
+
+*/
+
+.contact,
+.education,
+.skills {
+  align-self: flex-start;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+
+.section__title {
+  color: var(--section-title);
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+.contact__rows {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-bottom: 16px;
+}
+
+.contact__row {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.contact__text {
+  color: var(--text);
+  font-size: 0.75rem;
+}
+
+.contact__text > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 
+
+RESPONSIVENE
 
 */
