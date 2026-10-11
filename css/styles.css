@@ -50,10 +50,11 @@ main {
   position: relative;
   display: flex;
   background: linear-gradient(153deg, #fcf1ed -0.65%, #C8C8C8 99.47%);
+  justify-content: center;
   width: 800px;
   height: 1200px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-  padding: 32px 48px;
+  padding: 48px 24px;
   z-index: 1;
   animation: fade-in 3s;
   animation-timing-function: ease-in-out;
@@ -167,9 +168,14 @@ HEADER
   color: var(--text);
   font-size: 0.75rem;
   line-height: 2;
-  width: 352px;
   text-wrap: pretty;
   margin-bottom: 16px;
+}
+
+.candidate__bio,
+.description,
+.highlight {
+  text-wrap: pretty;
 }
 
 /* 
@@ -345,6 +351,25 @@ EXPERIENCE
   font-size: 0.75rem;
   font-weight: 400;
   line-height: 1.5;
+}
+
+.highlights {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 8px;
+  padding-left: 16px;
+}
+
+
+.highlight::marker {
+  content: "✦";
+  font-size: 0.75rem;
+  color: var(--primary);
+}
+
+.highlight {
+  padding-left: 4px;
 }
 
 .job {
