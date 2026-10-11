@@ -99,6 +99,16 @@ main,
   z-index: 3;
 }
 
+.history {
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.history::-webkit-scrollbar {
+  display: none;
+}
+
 .cv__right::before {
   position: absolute;
   content: "";
@@ -307,7 +317,7 @@ EXPERIENCE
   color: var(--primary);
 }
 
-.job__title {
+.section__subtitle {
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.5px;
@@ -315,7 +325,7 @@ EXPERIENCE
   margin-top: 16px;
 }
 
-.job__details {
+.details {
   color: var(--text-light);
   font-size: 0.75rem;
   display: flex;
@@ -324,13 +334,13 @@ EXPERIENCE
 }
 
 
-.job__detail:not(:first-child) {
+.detail:not(:first-child) {
   border-left: 1px solid var(--dividers);
   padding-left: 8px;
 }
 
-.job__description,
-.job__highlights {
+.description,
+.highlights {
   color: var(--text);
   font-size: 0.75rem;
   font-weight: 400;
@@ -343,6 +353,16 @@ EXPERIENCE
 
 .job:last-child {
   margin-bottom: 24px;
+}
+
+/* 
+
+PROJECTS
+
+*/
+
+.projects {
+  padding: 16px 32px;
 }
 
 /* 
